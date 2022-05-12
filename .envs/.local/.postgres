@@ -1,0 +1,8 @@
+# PostgreSQL
+# ------------------------------------------------------------------------------
+POSTGRES_HOST=postgres
+POSTGRES_PORT=5432
+POSTGRES_DB=miohDB
+POSTGRES_USER=postgres
+# POSTGRES_PASSWORD=VZvPj7EDQfs9Wxy9qTGd5FHSiOVe7xUrwmy7HJsuhhDqpjtimAVM5vwYW1mtvwUP
+POSTGRES_PASSWORD=admin

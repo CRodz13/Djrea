@@ -1,0 +1,140 @@
+
+{% load static %}
+{% block content %}
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>MUSIC IS OUR HERO®!</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="{% static 'img/logo.png' %}" rel="icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Abel&family=Caveat&family=Pacifico&family=Square+Peg&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <link href="{% static 'home/css/main.css' %}" rel="stylesheet">
+</head>
+
+<body>
+<div id="particles-js"></div>
+
+<!-- ======= Navbar ======= -->
+<section id="header">
+    <a href="#"><img src="home/img/mioh-logo.png" class="logo" alt=""></a>
+
+    <div>
+        <ul id="navbar">
+            <li><a class="active" href="#home"><i class="fa-solid fa-house"></i></a></li>
+            <li><a href="#contact"><i class="fa-solid fa-message"></i></a></li>
+            <li id="lg-bag"><a href="store/home"><i class="fa-solid fa-bag-shopping"></i></a></li>
+            <a href="#" id="close"><i class="far fa-x"></i></a>
+        </ul>
+    </div>
+    <div id="mobile">
+        <a href="store/home"><i class="fa-solid fa-bag-shopping"></i></a>
+        <i id="bar" class="fa-solid fa-align-justify"></i>
+    </div>
+</section>
+
+
+<section id="hero">
+    <div>
+        <img class="cape-img" src="{% static 'home/img/capeduo.png' %}" alt="...">
+        <h1>Join the Cape Squad, unlock instrumentals, and begin <br> writing your next hit song! Website and app coming soon!</h1>
+    </div>
+    
+    <div class="social-links">
+        <h2>Connect With Us</h2>
+        <div class="icons">
+            <a class="btn btn-floating" href="https://www.instagram.com/musicisourhero/" role="button"><i class="fab fa-instagram"></i></a>
+            <a class="btn btn-floating" href="https://www.facebook.com/musicisourheroMIOH" role="button"><i class="fab fa-facebook"></i></a>
+            <a class="btn btn-floating" href="https://twitter.com/MUSICISOURHERO" role="button"><i class="fab fa-twitter"></i></a>
+        </div>
+    </div>
+</section>
+
+<a id="scroll-top"><i class="fa fa-circle-arrow-up"></i></a>
+
+{% comment %} <footer class="section-p1">
+    <div class="col">
+        <img class="logo" src="img/logo.png" alt="">
+        <h4>Contact</h4>
+        <p><strong>Phone:</strong>10:00 - 18:00, Mon - Sat</p>
+        <p><strong>Hours:</strong>10:00 - 18:00, Mon - Sat</p>
+        <div class="follow">
+            <h4>Follow us</h4>
+            <div class="icon">
+                <i class="fab fa-facebook-f"></i>
+                <i class="fab fa-twitter"></i>
+                <i class="fab fa-instagram"></i>
+            </div>
+        </div>
+    </div>
+
+    <div class="col">
+        <h4>About</h4>
+        <a href="#">About us</a>
+        <a href="#">Delivery Information</a>
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms & Conditions</a>
+        <a href="#">Contact Us</a>
+    </div>
+
+    <div class="col">
+        <h4>My Account</h4>
+        <a href="#">Sign In</a>
+        <a href="#">View Cart</a>
+        <a href="#">My Wishlist</a>
+        <a href="#">Track My Order</a>
+        <a href="#">Help</a>
+    </div>
+
+    <div class="col install">
+        <h4>Install App</h4>
+        <p>From App Store or Google Play</p>
+        <div class="row">
+            <img src="{% static 'home/img/pay/app.jpg' %}" alt="">
+            <img src="{% static 'home/img/pay/play.jpg' %}" alt="">
+        </div>
+        <p>Secured Payment Gateways</p>
+        <img src="img/pay/pay.png" alt="">
+    </div>
+
+    <div class="copyright">
+        <p>© 2022</p>
+    </div>
+</footer> {% endcomment %}
+
+<footer class="footer">
+    <div class="copyright">
+        Copyright &copy; 2022 <span>Nice Rack LLC</span> <br>
+        MUSIC IS OUR HERO&#174;!
+        <p>All Rights Reserved</p>
+    </div>
+</footer>
+ 
+
+
+
+
+  <!-- Vendor JS Files -->
+  <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+  <script src="{% static 'home/js/particles.min.js' %}"></script>
+  <script src="{% static 'home/js/app.js' %}"></script>
+
+  <!-- Template Main JS File -->
+  <script src="{% static 'home/js/script.js' %}"></script>
+
+</body>
+
+</html>
+{% endblock %}

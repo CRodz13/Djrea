@@ -1,0 +1,68 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>MUSIC IS OUR HERO®!</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="{% static 'img/logo.png' %}" rel="icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Abel&family=Caveat&family=Pacifico&family=Square+Peg&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <link href="{% static 'home/css/main.css' %}" rel="stylesheet">
+</head>
+
+<body>
+<div id="particles-js"></div>
+
+<!-- ======= Navbar ======= -->
+<section id="header">
+    <a href="#"><img src="home/img/mioh-logo.png" class="logo" alt=""></a>
+
+    <div>
+        <ul id="navbar">
+            <li><a class="active" href="#home">Home</a></li>
+            <li><a href="#shop">Shop</a></li>
+            <li><a href="#blog">Blog</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li id="lg-bag"><a href="cart.html"><i class="far fa-shopping-bag"></i></a></li>
+            <a href="#" id="close"><i class="far fa-times"></i></a>
+        </ul>
+    </div>
+    <div id="mobile">
+        <a href="cart.html"><i class="far fa-shopping-bag"></i></a>
+        <i id="bar" class="fas fa-outdent"></i>
+    </div>
+</section>
+
+ 
+
+
+
+  <a href="#" class="scroll-top d-flex align-items-center justify-content-center"><i class="fa fa-cloud-arrow-up"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+  <script src="{% static 'home/js/particles.min.js' %}"></script>
+  <script src="{% static 'home/js/app.js' %}"></script>
+  <script src="{% static 'home/vendor//bootstrap/js/bootstrap.bundle.min.js' %}"></script>
+  <script src="{% static 'home/vendor//swiper/swiper-bundle.min.js' %}"></script>
+  <script src="{% static 'home/vendor//glightbox/js/glightbox.min.js' %}"></script>
+  <script src="{% static 'home/vendor//aos/aos.js' %}"></script>
+  <!-- Template Main JS File -->
+  <script src="{% static 'home/js/main.js' %}"></script>
+
+</body>
+
+</html>
